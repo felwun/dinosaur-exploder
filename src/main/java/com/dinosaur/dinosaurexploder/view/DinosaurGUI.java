@@ -13,6 +13,7 @@ public class DinosaurGUI {
         settings.setWidth(WIDTH);
         settings.setHeight(HEIGHT);
         settings.setMainMenuEnabled(true);
+        settings.setManualResizeEnabled(true);
 
         // Custom main menu
         settings.setSceneFactory(new SceneFactory() {

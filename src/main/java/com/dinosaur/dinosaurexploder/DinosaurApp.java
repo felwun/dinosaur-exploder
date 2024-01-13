@@ -21,6 +21,7 @@ import static com.almasb.fxgl.dsl.FXGL.*;
 public class DinosaurApp extends GameApplication {
     DinosaurGUI gui = new DinosaurGUI();
     DinosaurController controller = new DinosaurController();
+
     /**
      * Summary :
      *      This method for the setting the Game GUI
@@ -67,6 +68,5 @@ public class DinosaurApp extends GameApplication {
      */
     public static void main(String[] args) {
         launch(args);
-        
     }
 }
