@@ -18,7 +18,7 @@ import static com.almasb.fxgl.dsl.FXGL.getGameScene;
 import static com.almasb.fxgl.dsl.FXGL.getPrimaryStage;
 
 public class DinosaurMenu extends FXGLMenu {
-    private static final double HEIGHTMUL = 0.75;
+    private static final double HEIGHTMUL = 0.47;
 
     public DinosaurMenu() {
         super(MenuType.MAIN_MENU);
@@ -69,7 +69,7 @@ public class DinosaurMenu extends FXGLMenu {
 
     /**
      * Summary :
-     *      Initialises the window to 3/4 (default value, change HEIGHTMUL above if you want a differnt value) the height of the screen and maintains the aspect ratio defined in DinosaurGUI.java.
+     *      Initialises the window to 0.47 (default value, change HEIGHTMUL above if you want a differnt value) the height of the screen and maintains the aspect ratio defined in DinosaurGUI.java.
      *      To update the base resolution and aspect ratio of the game window, edit the WIDTH and HEIGHT variables in DinosaurGUI.java.
      *      Does not change the game resolution, it only scales the window.
      *      Also adds listeners to maintain the correct aspect ratio when the window is resized.
